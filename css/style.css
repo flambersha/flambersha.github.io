@@ -1,0 +1,133 @@
+html,body{
+    height: 100%;
+    margin:0;
+    background: url('https://wylsa.com/wp-content/uploads/2016/06/uu8sboZ-1.png');
+    background-attachment:fixed;
+    background-size:cover;
+}
+@keyframes appearance{
+    from{opacity:0;}
+    to{opacity:1;}
+}
+header{
+    font-size: 36px;
+    padding:1%;
+    font-family: Lato, sans-serif;
+    font-weight: bold;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.description{
+    height:45%;
+    width:40%;
+    background: rgba(0, 0, 0, 0.5);
+    padding:7% 5% 0 5%;
+    float:left;
+}
+.description p{
+    font-size:23px;
+    color:white;
+    font-family: Lato, sans-serif;
+    font-weight: bold;
+    text-align:center;
+    animation-duration: 2s;
+    animation-name: appearance;
+}
+.description p:hover{
+    transform: scale(1.1, 1.1);
+    transition: transform 1s;
+}
+.description img{
+    width:40%;
+    height:60%;
+    margin:0 30%;
+    border-radius: 50%;
+    animation-duration: 4s;
+    animation-name: appearance;
+}
+.description img:hover{
+    transform: scale(1.1,1.1);
+    transition:transform 1s;
+}
+.black{
+    height: 50%;
+    background:rgb(26, 20, 20);
+    clear:both;
+    padding:3% 8% 0 8%;
+}
+h1{
+    font-size: 30px;
+    font-family: Lato, sans-serif;
+    color:white;
+    text-align: center;
+    animation-duration: 3s;
+    animation-name: appearance;
+}
+h1:hover{
+    transform: scale(1.1, 1.1);
+    transition: transform 1s;
+}
+.black p{
+    font-size: 30px;
+    font-family: Lato;
+    color:white;
+    text-align: center;
+    margin:3% 0 0 0;
+    animation-duration: 3s;
+    animation-name: appearance;
+}
+.black p:hover{
+    transform: scale(1.1, 1.1);
+    transition:transform 1s;
+}
+.info{
+    height:70%;
+    background:rgba(0, 0, 0, 0.5);
+    width:50%;
+    float:left;
+}
+.info img{
+    width:40%;
+    height:50%;
+    margin:15%;
+    border-radius: 50%;
+}
+.info img:hover{
+    transform:translate(5%,5%);
+    transition:transform 1s;
+}
+.info p{
+    font-size: 23px;
+    font-family: Lato, sans-serif;
+    font-weight: bold;
+    text-align:center;
+    color:white;
+    margin:20% 12% 0 0;
+}
+.info p:hover{
+    transform: scale(1.1, 1.1);
+    transition: transform 1s;
+}
+footer{
+    height: 20%;
+    background:rgb(0, 0, 0);
+    clear:both;
+    padding:2%;
+}
+footer div{
+    float:right;
+    text-align: right;
+}
+footer p{
+    float:left;
+}
+footer a{
+    font-size: 23px;
+    font-family: Lato, sans-serif;
+    font-weight: bold;
+    color:rgb(143, 143, 143);
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
