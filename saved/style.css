@@ -2,7 +2,7 @@ html,body{
     height:100%;
 }
 .main{
-    margin:1%;
+    margin:2% auto;
     width:12%;
     height:70%;
     background-color: black;
