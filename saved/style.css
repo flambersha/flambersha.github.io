@@ -2,12 +2,13 @@ html,body{
     height:100%;
 }
 .main{
-    margin-right:5%;
+    margin:1%;
     width:12%;
     height:70%;
     background-color: black;
     padding:1%;
     border-radius:12%;
+    float:left;
 }
 .circle{
     width:85%;
@@ -35,6 +36,7 @@ html,body{
     animation-name: text;
     animation-delay:1s;
     font-size: 100px;
+    text-align:center;
 }
 @keyframes yellowA{
     from{background-color:grey;}
@@ -45,6 +47,7 @@ html,body{
     animation-name: text;
     animation-delay:2s;
     font-size: 100px;
+    text-align:center;
 }
 .yellow_light{
     animation-duration: 1s;
@@ -69,4 +72,5 @@ html,body{
     animation-delay:3s;
     animation-iteration-count: infinite;
     font-size: 100px;
+    text-align:center;
 }
