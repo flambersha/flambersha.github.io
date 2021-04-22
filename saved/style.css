@@ -35,7 +35,6 @@ html,body{
     animation-name: text;
     animation-delay:1s;
     font-size: 100px;
-    text-align:center;
 }
 @keyframes yellowA{
     from{background-color:grey;}
@@ -46,7 +45,6 @@ html,body{
     animation-name: text;
     animation-delay:2s;
     font-size: 100px;
-    text-align:center;
 }
 .yellow_light{
     animation-duration: 1s;
@@ -71,8 +69,8 @@ html,body{
     animation-delay:3s;
     animation-iteration-count: infinite;
     font-size: 100px;
-   
 }
 button{
     margin-left:5%;
+    clear:both;
 }
