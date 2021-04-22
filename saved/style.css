@@ -70,7 +70,7 @@ html,body{
     animation-iteration-count: infinite;
     font-size: 100px;
 }
-button{
+.btt{
     margin:5%;
     clear:both;
 }
