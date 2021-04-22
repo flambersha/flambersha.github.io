@@ -70,7 +70,6 @@ html,body{
     animation-iteration-count: infinite;
     font-size: 100px;
 }
-.btt{
-    margin:5%;
-    clear:both;
+a{
+  color:green;
 }
