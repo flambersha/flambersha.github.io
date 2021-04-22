@@ -35,6 +35,7 @@ html,body{
     animation-name: text;
     animation-delay:1s;
     font-size: 100px;
+    text-align:center;
 }
 @keyframes yellowA{
     from{background-color:grey;}
