@@ -1,0 +1,55 @@
+html,body{
+    height:100%;
+    background-color: #d8f3e5;
+}
+.bg-light{
+    background-color:#9fdfbf !important;
+}
+.colored{
+    background-color: white;
+    margin-bottom: 1%;
+}
+.h1, .h3{
+    text-align:center;
+}
+li a{
+    font-size: 150%;
+    color:#64ca97;
+    font-weight: bold;
+}
+.col-md-6{
+    margin-bottom: 2%;
+}
+.carousel-inner{
+    margin-bottom: 1%;
+}
+.card{
+    margin: 0 auto;
+}
+.about{
+    font-size:170%;
+    color:rgb(51, 143, 59);
+    margin:2%;
+}
+.name{
+    font-size:200%;
+    font-weight: bold;
+    color:rgb(51, 143, 59);
+}
+.articles{
+    font-size:130%;
+    margin-top:1%;
+    text-indent: 4%;
+}
+.card-background{
+    background-color: rgb(236, 171, 171) !important;
+    margin-bottom:2%;
+}
+.card-text{
+    font-size:110%;
+}
+.d-flex{
+    margin:2% 0;
+    background-color: azure;
+    padding:1%;
+}
