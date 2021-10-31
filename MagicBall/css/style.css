@@ -36,6 +36,7 @@ span{
     color:#e66465;
     margin:5px;
     font-family: 'Lucida Sans', sans-serif;
+    text-align: center;
 }
 input[type=text]{
     border: 2px solid rgb(182, 71, 71);
