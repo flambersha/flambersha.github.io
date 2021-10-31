@@ -10,7 +10,7 @@ document.body.appendChild(block);
 block.appendChild(title);
 title.textContent = "Ask a question!";
 block.appendChild(txt);
-txt.textContent = "Ask a question, say it loud or write it here and click on the ball";
+txt.textContent = "Ask a question, say it out loud/in your head or write it here and click on the ball";
 block.appendChild(input);
 block.appendChild(btn);
 btn.textContent = "Get the answer!";
