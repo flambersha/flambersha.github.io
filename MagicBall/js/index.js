@@ -28,7 +28,6 @@ btn.addEventListener('click', () => {
             btn.textContent = "Enter a question!";
         }
         else btn.textContent = getAnswer;
-        btn.textContent = getAnswer;
     }, 500);
     
     btn.addEventListener('animationend', () => {
