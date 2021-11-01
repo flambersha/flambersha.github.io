@@ -24,6 +24,10 @@ btn.addEventListener('click', () => {
     
     setTimeout(() => {
         btn.classList.add('showText');
+        if (input.value == ""){
+            btn.textContent = "Enter a question!";
+        }
+        else btn.textContent = getAnswer;
         btn.textContent = getAnswer;
     }, 500);
     
