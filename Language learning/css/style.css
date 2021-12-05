@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+html, body{
+    height: 100%;
+    margin:0;
+}
+*{
+    font-size:110%;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.title{
+    margin:2%;
+    font-weight:bold;
+}
+#card{
+    height:300px;
+    width:40%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin:0 4% 2% 4%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:130%;
+}
+#card div{
+    text-align: center;
+}
+#checkBtn{
+    background-color: white;
+    border: none;
+    padding: 10px 22px;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 6%;
+    transition-duration: 0.2s;
+    border: 2px solid #609fe6;
+    border-radius: 25px;
+}
+#checkBtn:hover{
+    background-color: #609fe6;
+    color: white;
+}
+input[type=text]{
+    margin:2% 1% 1% 1%;
+    border-radius: 25px;
+    text-indent: 10px;
+    border: 1px solid black;
+}
+input[type=text]:focus{
+    outline:none;
+}
+#user, #dictionary{
+    padding: 10px 22px;
+    font-weight: bold;
+    font-size: 130%;
+}
+#user{
+    color:rgb(77, 245, 113);
+}
+#dictionary{
+    color:red;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
