@@ -39,6 +39,7 @@ let removeUsed = (arr, value) => {
 let result = () => {
     console.log(userPoints);
     switch(userPoints){
+        case 0:
         case 1:
         case 2:
         case 3:
