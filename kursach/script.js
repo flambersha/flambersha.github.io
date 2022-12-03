@@ -1,4 +1,4 @@
-const kursachCountDown = new Date("Nov 29, 2021 00:00:00").getTime();
+const kursachCountDown = new Date("Dec 17, 2022 00:00:00").getTime();
 
 var x = setInterval(() => {
     
