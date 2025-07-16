@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.container {
+    width: min(100% - 15px, 840px);
+    margin-inline: auto;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* cake image */
+img{
+    height:200px;
+    width:250px;
+}
+
+/* CSS candle */
+.candle {
+    width: 15px;
+    height: 40px;
+    background-color: rgb(140, 192, 213);
+    border-radius: 4px;
+    border: 3px solid black;
+    position: relative;
+    margin-bottom: -2px;
+}
+
+/* CSS flame */
+.flame {
+    width: 20px;
+    height: 30px;
+    background: radial-gradient(circle, yellow, orange, red);
+    border-radius: 50%;
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s ease-out, visibility 0.5s ease-out;
+    animation: flickering 0.1s infinite alternate;
+}@keyframes flickering {
+    0% { transform: translateX(-50%) scale(1); }
+    
+    100% { transform: translateX(-50%) scale(1.1); }
+}
+
+/* flame after blowing must disappear */
+.hidden {
+    opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease-out, visibility 0.5s ease-out;
+}
+
+/* paragraph text */
+.txt{
+    margin-bottom: 60px;
+    font-family: "Atma", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    font-size:50px;
+    color:white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-align: center;
+}
+::selection {
+    color: rgb(110, 191, 229);
+    background: pink;
+}
